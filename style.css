@@ -1,0 +1,145 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(90, 182, 151);
+
+}
+
+.form-container{
+  background-color: rgb(162, 241, 131);
+  width: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+
+  height: 90%;
+
+  display: flex;
+  align-items: center;
+}
+
+.form-container .login-container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-container .login-container > h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.form-container .login-container > p,
+.form-container .login-container > span {
+  text-align: center;
+  color:rgb(1, 63, 1);
+}
+
+.form-container .login-container label {
+  display: block;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.form-container .login-container input.input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+.form-container .login-container input.inpu:focus {
+  outline: 3px solid rgb(11, 37, 11);
+}
+
+.form-container .login-container .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-container a {
+  color: rgb(47, 10, 82);
+  text-decoration: none;
+}
+
+.form-container a:hover {
+  text-decoration: underline;
+}
+
+.form-container .login-container .providers{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn {
+  border: none;
+  padding: 15px 0;
+  width: 100%;
+  font-weight: bolder;
+  display: block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn.btn-login {
+  background-color: black;
+  color: white;
+
+}
+
+.btn.btn-login:hover {
+  background-color: #444;
+}
+
+.btn.btn-facebook {
+  background-color: rgb(69, 93, 233);
+  color: white;
+}
+
+.btn.btn-google {
+  background-color: rgb(251, 251, 252);
+  color: black;
+  border: 1px solid #ccc;
+}
+.btn.btn-twiter {
+  background-color: rgb(127, 157, 192);
+  color: white;
+}
+
+.btn.btn-twiter:hover {
+  background-color: rgb(26, 69, 119);
+}
+
+.btn.btn-facebook:hover {
+  background-color: rgb(6, 20, 100);
+  
+}
+
+.btn.btn-google:hover {
+  background-color: rgb(194, 223, 32);
+  
+}
+
+.form-container .wellcome-screen-container{
+  background-color: rgb(66, 63, 63);
+  height: 100%;
+  width: 50%;
+
+}
+
+.form-container .wellcome-screen-container .img {
+  width: 300px;
+  
+}
+
+
+
